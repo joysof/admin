@@ -1,0 +1,14 @@
+.tooltipe{
+    color: rgb(148, 168, 168);
+    background-color: black;
+    padding: 5px;
+    visibility: hidden;
+    position: absolute;
+}
+.tool{
+    display: inline-block;
+}
+ 
+.tool:hover .tooltipe{
+    visibility: visible;
+}
